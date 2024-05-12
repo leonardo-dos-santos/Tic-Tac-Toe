@@ -35,7 +35,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 54px;
-  background-color: #553d67;
+  background-color: #b6b6b6;
   color: #12232E;
   border: none;
   border-radius: 0px;
@@ -139,4 +139,38 @@ select {
 
 select:hover {
   cursor: pointer;
+}
+
+.win p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: white;
+  z-index: 1;
+  -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.winner {
+  position: fixed;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, 0);
+  font-size: 35px;
+}
+
+.sign {
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, 0);
+  font-size: 150px;
+  margin: 0;
+}
+
+.o-text {}
+
+.x-text {}
+
+.hide{
+  display: none;
 }
