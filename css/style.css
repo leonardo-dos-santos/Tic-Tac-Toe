@@ -59,3 +59,19 @@ body {
 .field:hover {
   cursor: pointer;
 }
+
+.btn {
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 7px 22px -6px lightgrey;
+  box-shadow: -1px 7px 22px -6px lightgrey;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
